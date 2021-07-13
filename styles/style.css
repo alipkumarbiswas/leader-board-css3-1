@@ -97,14 +97,29 @@ courses styles
     align-items: center;
     justify-content: space-between;
 }
+.coure-author{
+    color: #ED6B4F;
+    font-size: 14px;
+}
 .fa-star{
     font-size: 12px;
 }
 .fa-star.filled{
 color: #FFC014;
 }
-.fa-star.empty{
+.fa-star.empty, .fraction{
     color: #AEAEAE;
+}
+.fa-clock{
+    color: #ED6B4F;
+}
+.course-duration{
+    color: #ED6B4F;
+    border: 1px;
+    border-radius: 10px;
+    background-color: #FFE4E8;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 /*---------------
  Media Queries
